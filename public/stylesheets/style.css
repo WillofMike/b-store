@@ -1,9 +1,34 @@
-h1 {
-  background-color: grey;
-  margin: 10px;
-  font-family: 'Saira Semi Condensed', sans-serif;
+header h1 a {
+  font-family: 'Taviraj', serif;
+  color: black;
+}
+
+header h1 a {
+  text-decoration: none;
 }
 
 a:hover {
-text-decoration: none;
+  color: grey;
+  text-decoration: none;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+body {
+  margin: 50px;
+}
+
+.book-img {
+  width: 100px;
+  padding: 10px;
+}
+
+.book-info {
+
+}
+
+a {
+  color: black;
 }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+  </head>
+  <body>
+
+        <header>
+          <h1><a href="/">Check It Out</a></h1>
+          <a href="/authors" class="btn btn-primary">Authors</a>
+          <a href="/books" class="btn btn-primary">Books</a>
+        </header>
+        <div class="list-group">
+          {{#each book}}
+            <a href="/books{{id}}" class="list-group-item">
+              <img class="book-img" src="{{cover_url}}" alt="">
+              <div class="book-info">
+                <h4 class="list-group-item-heading">{{title}}</h4>
+                <h5>{{genre}}</h5>
+                <p>{{description}}</p>
+              </div>
+            </a>
+          {{/each}}
+        </div>
+
+  </body>
+</html>
